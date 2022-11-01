@@ -84,7 +84,7 @@
     "scripts": {
         "prepare": "husky install",
         "prepublishOnly": "grunt build",
-        "postinstall": "npm install && grunt build",
+        "postinstall": "grunt build",
         "test": "grunt lint && grunt test"
     },
     "types": "build/es2019/module.d.ts",
