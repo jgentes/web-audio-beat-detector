@@ -84,7 +84,7 @@
     "scripts": {
         "prepare": "husky install",
         "prepublishOnly": "grunt build",
-        "postinstall": "cd node_modules/web-audio-beat-detector/ && npm install && grunt build"
+        "postinstall": "cd node_modules/web-audio-beat-detector/ && npm install && grunt build",
         "test": "grunt lint && grunt test"
     },
     "types": "build/es2019/module.d.ts",
