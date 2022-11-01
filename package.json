@@ -82,7 +82,7 @@
         "url": "https://github.com/chrisguttandin/web-audio-beat-detector.git"
     },
     "scripts": {
-        "prepare": "husky install",
+        "prepare": "husky install && grunt build",
         "prepublishOnly": "grunt build",
         "test": "grunt lint && grunt test"
     },
