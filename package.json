@@ -79,7 +79,7 @@
     "name": "web-audio-beat-detector",
     "repository": {
         "type": "git",
-        "url": "https://github.com/chrisguttandin/web-audio-beat-detector.git"
+        "url": "https://github.com/jgentes/web-audio-beat-detector"
     },
     "scripts": {
         "prepare": "husky install",
