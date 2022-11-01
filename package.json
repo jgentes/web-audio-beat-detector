@@ -82,8 +82,9 @@
         "url": "https://github.com/chrisguttandin/web-audio-beat-detector.git"
     },
     "scripts": {
-        "prepare": "npm install && grunt build",
+        "prepare": "husky install",
         "prepublishOnly": "grunt build",
+        "postinstall": "cd node_modules/web-audio-beat-detector/ && npm install && grunt build"
         "test": "grunt lint && grunt test"
     },
     "types": "build/es2019/module.d.ts",
